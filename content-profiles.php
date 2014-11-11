@@ -23,7 +23,7 @@
 					    		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 					    <?php } else { ?>
-					    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatarplaceholder.jpg" alt="no faculty image availble" />
+					    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatarplaceholder4.svg" width="150px" alt="no faculty image availble" />
 					 <?php } ?>
 							</div>					
 									
