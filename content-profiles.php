@@ -12,7 +12,7 @@
 	<?php if ( is_home() ) : ?>
 	
 	<?php else: ?>
-	<header class="entry-header">
+	
 		<div class="imageCrop">
 		<?php 
 
@@ -23,14 +23,14 @@
 					    		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 					    <?php } else { ?>
-					    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatarplaceholder4.svg" width="150px" alt="no faculty image availble" />
+					    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatarplaceholder.jpg" alt="no faculty image availble" />
 					 <?php } ?>
 							</div>					
 									
 		<div class="textCopy">
 		<h3 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_field('first_name'); ?> <?php the_field('last_name'); ?></a></h3>
 	</div>
-</header><!-- .entry-header -->
+
 	<?php endif; ?>
 <div class="textCopy">
 	<div class="entry-content">
