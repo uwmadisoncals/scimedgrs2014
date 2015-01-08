@@ -149,6 +149,8 @@ text-decoration: none;
 	border-bottom: 1px solid #ececec;
 	padding-bottom: 1em;
 	padding-top: 1em;
+	margin-top: 1em;
+	font-size: 14px;
 }
 
 .filtered2 li .subTitle {
@@ -156,12 +158,29 @@ text-decoration: none;
 	text-transform: uppercase;
 	color: rgba(0,0,0,0.5);
 	letter-spacing: 1px;
+	font-size: 10px;
 }
 
 .filtered2 li .entry-title {
-	font-size: 18px;
+	font-size: 22px;
+	margin-top: 15px;
 	margin-bottom: 0px;
 	line-height: 1em;
+}
+
+#prof_s {
+	width: 100%;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ececec;
+	box-shadow: none;
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	background: url("images/search-icon.svg") no-repeat;
+	background-size: 45px;
+	background-position: 0px 10px;
+	padding-left: 50px;
 }
 
 .filtered2 li .profileColumn1 {

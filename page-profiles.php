@@ -7,7 +7,7 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-				<div id="prof_s_wrapper" ><input id="prof_s" class="field" type="text" placeholder="Search Profiles" name="s_profiles"></div>
+				<div id="prof_s_wrapper" ><input id="prof_s" class="field" type="text" placeholder="Filter Profiles" name="s_profiles"></div>
 				
 				<div class="filtered2">
 
