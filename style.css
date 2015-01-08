@@ -2,7 +2,7 @@
 Theme Name:     Scimed GRS 2014
 Theme URI:      http://uwtheme.wordpress.wisc.edu/
 Description:    Scimed GRS child theme for the CALS WP Theme
-Author:         University Communications | Al Nemec
+Author:         Al Nemec
 Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
 Template:       eln
 Version:        0.2.0
@@ -11,6 +11,9 @@ Version:        0.2.0
 @import url("../eln/style.css");
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,100);
 
+nav {
+	background: #cbc8b7;
+}
 
 
 .home .entry-title {
@@ -153,7 +156,29 @@ text-decoration: none;
 	font-size: 14px;
 }
 
-.filtered2 li .subTitle {
+.imagePlacement.singleProfile {
+	float:left;
+	width: 45%;
+	
+	padding-right: 5%;
+	border-right: 1px solid #ececec;
+	box-sizing: border-box;
+}
+
+.imagePlacement.singleProfile img {
+	width: 100%;
+	height: auto;
+	max-width: 240px;
+	float:right;
+	}
+
+.singleProfileText {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.filtered2 li .subTitle, .singleProfileText .subTitle {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: rgba(0,0,0,0.5);
@@ -187,7 +212,7 @@ text-decoration: none;
 	padding-left: 1.5em;
 }
 
-.filtered2 li .profileColumn2 .row {
+.filtered2 li .profileColumn2 .row, .singleProfileText .row {
 	margin-top: 0.6em;
 }
 
