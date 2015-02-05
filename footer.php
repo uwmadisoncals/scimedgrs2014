@@ -12,7 +12,7 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
-		<div class="inner">
+		<div class="inner clearfix">
 		
         
 	        <div class="copyright">
@@ -28,7 +28,7 @@
 						<span>Phone: (111) 111-1111</span>
 						<span class="bullet_img">FAX: (111) 111-1111</span>
 					</div>-->
-	        		<div class="copyrightline">&copy; 2014. Board of Regents of the University of Wisconsin System.</div>
+	        		<div class="copyrightline">&copy; 2015. Board of Regents of the University of Wisconsin System.</div>
 				</div>
 	        </div>
 	        

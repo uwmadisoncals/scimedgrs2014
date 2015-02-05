@@ -89,7 +89,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 footer .inner {
-	padding-bottom: 160px;
+	padding-bottom: 180px;
 }
 
 a.button.blue {
@@ -194,7 +194,7 @@ text-decoration: none;
 }
 
 #prof_s {
-	width: 100%;
+	width: 90%;
 	background: none;
 	border: none;
 	border-bottom: 1px solid #ececec;
@@ -232,4 +232,50 @@ text-decoration: none;
 .filtered2 li .textCopy {
 	width: 40%;
 	float: left;
+}
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 800px) {
+	footer .copyright, footer .donateContainer {
+		position:relative;
+		
+	}	
+	
+	footer .donateContainer {
+		right: 2em;
+		left: 2em;
+		width: 80%;
+	}
+	
+	.single #content, .page #content, .search-results #content, .archive #content, .error404 #content {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 700px) { 
+	.filtered2 li .profileColumn2 {
+		display:block;
+		float: none;
+		padding-left: 120px;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px) {
+	footer .copyright img {
+		display: none;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 960px) and (min-width: 640px) {
+	.single #content, .page #content, .search-results #content, .archive #content, .error404 #content {
+		width: 100%;
+	}
+	
+	#page #branding img {
+		width: 60%;	
+	}
 }
